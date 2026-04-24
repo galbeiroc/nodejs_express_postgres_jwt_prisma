@@ -1,0 +1,35 @@
+{
+  "name": "nodejs_express_postgres_jwt_prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galbeiroc/nodejs_express_postgres_jwt_prisma.git"
+  },
+  "keywords": [],
+  "author": "galbeiroc",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/galbeiroc/nodejs_express_postgres_jwt_prisma/issues"
+  },
+  "homepage": "https://github.com/galbeiroc/nodejs_express_postgres_jwt_prisma#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2"
+  }
+}
