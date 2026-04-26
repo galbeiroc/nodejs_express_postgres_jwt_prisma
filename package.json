@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/galbeiroc/nodejs_express_postgres_jwt_prisma#readme",
   "dependencies": {
+    "@prisma/client": "^7.8.0",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "typescript": "^6.0.3"
   },
@@ -30,6 +32,7 @@
     "@types/express": "^5.0.6",
     "@types/node": "^25.6.0",
     "nodemon": "^3.1.14",
+    "prisma": "^7.8.0",
     "ts-node": "^10.9.2"
   }
 }
